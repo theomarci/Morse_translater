@@ -29,7 +29,7 @@
 <h5>Step 2 :</h5>
 
 <p>
-  I built my first functions named "Morse_translation" whicht take one parameter "morse_text". This function return a string with a translation of the morse code saved in the previous variable. For that, I declared a variable which split the morse code with the python method split(). This method divided a string and store each elements divided in a list. Next, I created an empty list. After that, I looped each element of my first list to reach in the dictionary that fit with the right key and get back the right translation. Then I store this values in the empty list with python method .append(). And finally, where every elements have his translation store in the list a use an another method .join(), that transform the list in a string.
+  I built my first functions named "Morse_translation" whicht take one parameter "morse_text". This function return a string with a translation of the morse code saved in the previous variable. For that, I declared a variable which split the morse code with the python method split(). This method divided a string and store each elements divided in a list. Next, I created an empty list. After that, I looped each element of my first list to reach in the dictionary that fit with the right key and get back the right translation. Then I store this values in the empty list with python method .append(). And finally, where every elements have his translation store in the list, and I used an another method .join(), that transform the list in a string.
 </p>
 
 <h5>Step 3 :</h5>
@@ -66,7 +66,8 @@ Morse_translation(morse_text)
 
 <P>
   Now I did the same steps that the previous to translate a french or english words or sentences to morse but with some difference.<br>
-  First, I create a function named "Fr_translation". Inside it, I didn't used the split method but I create two empty list. "Why ?" you'll tell me. One of them is, like previous step, to store the translation but the other one is to store each elements of my string that I store in the parameter of my function, even space between words, by looping. Then, I used the append() method to add on an empty list each element. Next, I loopedin this previous list to reach the right values that I added to my other list. after that, I used the join() method to display on my terminal the translation in morse.<br>
+  First, I create an new dictionary but where the key is an alphabetical letters and value his translation. Next I created a new function named "Fr_translation". Inside it, I didn't used the split method but I replaced it with 
+  two empty list. "Why ?" you'll tell me. One of them is, like previous step, to store the translation but the other one is to store each elements of my string which stored in the parameter of my function, even space between words. Then, I used the append() method to add on an empty list for each elements. Next, I looped with each elements of the list and reach the right values that I added to my other list. after that, I used the join() method to concatenate each elements in a single string.<br>
   See this example :
 </P>
 
@@ -105,4 +106,10 @@ Fr_translation(fr_text)
 
 <p>
   In this step, I decided to create a repository, clone on my local, copy all files and pastes in my repo. Then, I created the readme and wrote some information in my main file.
+</p>
+
+<h3>Conclusion :</h3>
+
+<p>
+  This little project isn't difficult for me but it's important to practice sometimes the base.
 </p>
