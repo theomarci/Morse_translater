@@ -1,6 +1,10 @@
 import module_morse
 import module_fr_into_morse
 
+# ------------------------------FUNCTION--------------------------------------------------------
+
+# Morse_transaltaion return a string where the morse sentence is translated in french or english
+
 def Morse_translation(morse_text):
     split_text = morse_text.split(" ")
     trad_morse = []
@@ -12,6 +16,8 @@ def Morse_translation(morse_text):
     string_trad = ''.join(trad_morse)
     
     return print(string_trad)
+
+# Fr_transaltion is a function return a string with the translation of a sentence in morse
 
 def Fr_translation (fr_text):
     letter_list = []
@@ -27,6 +33,10 @@ def Fr_translation (fr_text):
     string_in_morse = ' '.join(text)
 
     return print(string_in_morse)
+
+# ----------------------------TEST------------------------------------------------------------
+
+# morse to french or english
 
 morse_text = ".--- .----. .- .."
 
@@ -56,6 +66,8 @@ morse_text = ("--- .... -.-.-----. / .-.. .- / .-.. .- -.-.-----. /"
               ". - / -.-. --- -- -- . -. - / --- -. / ...- .- / ..-. .- .. .-. . / "
               ".--. --- ..- .-. / -. . - - --- -.-- . .-. / -. --- ... / ...- .-..- - . -- . -. - ... / ..--..")
 Morse_translation(morse_text)
+
+# french or english to morse
 
 fr_text = "j'ai eu un coup de foudre!"
 Fr_translation(fr_text)
