@@ -108,8 +108,14 @@ Fr_translation(fr_text)
   In this step, I decided to create a repository, clone on my local, copy all files and pastes in my repo. Then, I created the readme and wrote some information in my main file.
 </p>
 
+<h5>Step 6 :</h5>
+
+<p>
+  To finish, this tiny project, I decided to learn the unit test in python and in particular the framework Pytest. The beginning was chaotic but after some research I resolve my problems about my installation. Then, I use the Pytest documentation to write my first line of code to test my functions. It's just the beginning so I don't want to write a lot of test code for any case. An another problem, I think, I must to write test first before to code my projects.  
+</p>
+
 <h3>Conclusion :</h3>
 
 <p>
-  This little project isn't difficult for me but it's important to practice sometimes the base.
+  This little project isn't difficult for me but it's important to practice sometimes the base and learn new thing, like Pytest. 
 </p>
