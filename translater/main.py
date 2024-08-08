@@ -15,7 +15,7 @@ def Morse_translation(morse_text):
     
     string_trad = ''.join(trad_morse)
     
-    return print(string_trad)
+    return string_trad
 
 # Fr_transaltion is a function return a string with the translation of a sentence in morse
 
@@ -32,27 +32,26 @@ def Fr_translation (fr_text):
 
     string_in_morse = ' '.join(text)
 
-    return print(string_in_morse)
+    return string_in_morse
 
 # ----------------------------TEST------------------------------------------------------------
 
 # morse to french or english
 
 morse_text = ".--- .----. .- .."
-
-Morse_translation(morse_text)
+print(Morse_translation(morse_text))
 
 morse_text = "-.-. --- -. -. .- .-. -.. -.-.-----. / - ..- / . ... - / -.-. .... .. .- -. - -.-.-----."
-Morse_translation( morse_text)
+print(Morse_translation(morse_text))
 
 morse_text = """...- . ..- -..- / - ..- / . - .-. . / -- .- / - . -- --- .. -. ..--.."""
-Morse_translation(morse_text)
+print(Morse_translation(morse_text))
 
 morse_text = """-.-. --- -- -- . - / ...- .- ... / - ..- ..--.."""
-Morse_translation(morse_text)
+print(Morse_translation(morse_text))
 
 morse_text = """.. / .-.. --- ...- . / -.-- --- ..- / ... --- / -- ..- -.-. .... -.-.-----."""
-Morse_translation(morse_text)
+print(Morse_translation(morse_text))
 
 morse_text = ("--- .... -.-.-----. / .-.. .- / .-.. .- -.-.-----. /"
               " -- .- .. ... / .--. --- ..- .-. .--. ..- --- .. / "
@@ -65,7 +64,7 @@ morse_text = ("--- .... -.-.-----. / .-.. .- / .-.. .- -.-.-----. /"
               "--.- ..- .. / ...- . ..- .-.. . -. - / -. --- ..- ... / - ..- . .-. / ..--.. / "
               ". - / -.-. --- -- -- . -. - / --- -. / ...- .- / ..-. .- .. .-. . / "
               ".--. --- ..- .-. / -. . - - --- -.-- . .-. / -. --- ... / ...- .-..- - . -- . -. - ... / ..--..")
-Morse_translation(morse_text)
+print(Morse_translation(morse_text))
 
 # french or english to morse
 
