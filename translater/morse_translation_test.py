@@ -1,6 +1,6 @@
 import main
 
-def test_sum():
+def test_Morse_to_fr():
     assert main.Morse_translation(".--- .----. .- ..") == "j'ai"
     assert main.Morse_translation("--- .... -.-.-----. / .-.. .- / .-.. .- -.-.-----. /"
               " -- .- .. ... / .--. --- ..- .-. .--. ..- --- .. / "
@@ -18,3 +18,5 @@ def test_sum():
                                                                                                                      "et comment on va faire pour nettoyer nos vètements ?")
 
 
+def test_fr_to_morse() :
+    assert main.Fr_translation("j'ai eu un coup de foudre!") == ".--- .----. .- .. / . ..- / ..- -. / -.-. --- ..- .--. / -.. . / ..-. --- ..- -.. .-. . -.-.-----."
